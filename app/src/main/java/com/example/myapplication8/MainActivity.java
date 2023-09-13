@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         int randomNumber = rand1.nextInt(16); // Slumpmässigt heltal mellan 0 och 15 inklusive 15
 
 
-        // Create an Intent to start the second activity//
+        // Create an Intent to start the second activity////
         Intent intent = new Intent(this, MainActivity2.class);
         intent.putExtra("RANDOM_NUMBER", randomNumber);
 
