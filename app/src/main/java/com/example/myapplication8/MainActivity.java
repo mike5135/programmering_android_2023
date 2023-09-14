@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//
+/////
     public void randomtal(View view) {
         Random rand1 = new Random();
         int randomNumber = rand1.nextInt(16); // Slumpmässigt heltal mellan 0 och 15 inklusive 15
